@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailsActivity">
+    <!-- Name and price info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/details_margin_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/details_labels_width"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/edit_product_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/name"
+            android:inputType="textCapWords"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/details_margin_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/details_labels_width"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textColor="@color/colorAccent" />
+        <EditText
+            android:id="@+id/edit_product_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/price"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <!-- Quantity info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/details_margin_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/details_labels_width"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity"
+            android:textColor="@color/colorAccent" />
+        <ImageButton
+            android:id="@+id/button_decrement_quantity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/buttons_background"
+            android:src="@drawable/ic_arrow_down"/>
+        <EditText
+            android:id="@+id/edit_quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/quantity"
+            android:inputType="number"/>
+        <ImageButton
+            android:id="@+id/button_increment_quantity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/buttons_background"
+            android:src="@drawable/ic_arrow_up"/>
+    </LinearLayout>
+
+    <!-- Supplier info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/details_margin_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/details_labels_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/sup_info"
+            android:textColor="@color/colorAccent" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edit_supplier_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/supp_name"
+                android:inputType="textCapWords"/>
+            <EditText
+                android:id="@+id/edit_supplier_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:inputType="phone"/>
+            <Button
+                android:id="@+id/contact_supplier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons_background"
+                android:text="@string/call"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_subject_labels">
+        <item>@string/settings_subject_def_label</item>
+        <item>@string/settings_football_label</item>
+        <item>@string/settings_travel_label</item>
+        <item>@string/settings_food_label</item>
+        <item>@string/settings_politics_label</item>
+    </string-array>
+    <string-array name="settings_subject_values">
+        <item>@string/settings_subject_def_value</item>
+        <item>@string/settings_football_value</item>
+        <item>@string/settings_travel_value</item>
+        <item>@string/settings_food_value</item>
+        <item>@string/settings_politics_value</item>
+    </string-array>
+    <string-array name="settings_date_labels">
+        <item>@string/settings_date_def_value</item>
+        <item>@string/settings_last_month_label</item>
+        <item>@string/settings_last_three_months_label</item>
+        <item>@string/settings_last_year_label</item>
+    </string-array>
+    <string-array name="settings_date_values">
+        <item>@string/settings_date_def_value</item>
+        <item>@string/settings_last_month_value</item>
+        <item>@string/settings_last_three_months_value</item>
+        <item>@string/settings_last_year_value</item>
+    </string-array>
+</resources>

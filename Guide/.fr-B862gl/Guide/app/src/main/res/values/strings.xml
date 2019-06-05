@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment_tab_title">HOME</string>
+    <string name="family_fragment_tab_title">FAMILY</string>
+    <string name="history_fragment_tab_title">PAST</string>
+    <string name="nature_fragment_tab_title">NATURE</string>
+    <string name="food_fragment_tab_title">FOOD</string>
+    <string name="janowiec_wlkp">Janowiec Wlkp.</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="biskupin">Biskupin Archaeological Museum</string>
+    <string name="biskupin_loc">Biskupin</string>
+    <string name="biskupin_desc">Biskupin is the ancient settlement, that\'s been reconstructed. Situated on a peninsula on a lake is place where you can travel back in time to 4000 B.C. Magical atmosphere and various attractions make this place valuable not only for ones seeking knowledge, but also for children.</string>
+    <string name="ice_creams">Plewa\'s ice creams</string>
+    <string name="ice_creams_loc">3 Maja, Janowiec Wlkp.</string>
+    <string name="ice_creams_desc">If you want to eat only one thing in Janowiec, choose those ice creams. You will be surprised how good they are. There are 2 basic flavours: chocolate and creme, but you can choose between various types of coatings.</string>
+    <string name="welna">Wełna river</string>
+    <string name="empty"></string>
+    <string name="example">Example</string>
+    <string name="example_loc">Szkolna 8, Janowiec</string>
+    <string name="example_desc">Just an example card with picture of part of palace in Janowiec.</string>
+    <string name="welna_desc">Wełna is rather small river that flows through Janowiec. It is natural border for Pałuki region. "Wełna" means "Wool" in Polish. It\'s beautiful and calm waters are perfect for kayaking and fishing.</string>
+    <string name="lake">Lakes</string>
+    <string name="lake_desc">Janowiec lies among lakes. It\'s common for local people to go for a bike ride to one of them, so if you are planning on visiting, don\'t forget to bring your swimsuit!</string>
+    <string name="church">St.Nicholas church</string>
+    <string name="church_loc">Plac Wolności, Janowiec</string>
+    <string name="church_desc">A church from XIX century is a great piece of Janowiec\'s history. Inside there are pieces of art valuable for local people. Also in the church are very old organs, that have been renovated lately.</string>
+    <string name="park">City park</string>
+    <string name="park_loc">Parkowa, Janowiec</string>
+    <string name="park_desc">City park is great recreation place within the city. Park once was a palace garden. Made in english style, looks very natural. It\'s situated right next to school and Wełna river. Inside, there is a public gym and place for kids to play.</string>
+    <string name="home_descr">Janowiec Wlkp. is a small town placed in historical Pałuki region, with about 5000 citizens and majestic nature around it. This guide will help you find best places to visit around it if you want spend some time there!</string>
+</resources>

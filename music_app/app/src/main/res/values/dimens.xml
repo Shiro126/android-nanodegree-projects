@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_text_view_margin">8dp</dimen>
+    <dimen name="list_text_view_margin_top">8dp</dimen>
+    <dimen name="list_text_view_margin_left">16dp</dimen>
+    <dimen name="list_text_view_margin_bottom">8dp</dimen>
+    <dimen name="text_medium">24sp</dimen>
+    <dimen name="text_large">48sp</dimen>
+</resources>

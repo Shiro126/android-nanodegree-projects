@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Table_Tennis_Counter</string>
+    <string name="player_a">Player A</string>
+    <string name="player_b">Player B</string>
+    <string name="score">score</string>
+    <string name="_1_point">+1 point</string>
+    <string name="reset_all">Reset ALL</string>
+    <string name="set">Set:</string>
+    <string name="_1_set">+1 set</string>
+    <string name="serve">Serve:</string>
+    <string name="reset_points">reset points</string>
+</resources>

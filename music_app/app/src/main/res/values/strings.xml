@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">music_app</string>
+    <string name="failed_to_load_title">Failed to load title</string>
+    <string name="failed_to_load_author">Failed to load author</string>
+    <string name="songs">Songs</string>
+    <string name="lib">Library</string>
+</resources>

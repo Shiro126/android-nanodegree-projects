@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Short_quiz</string>
+    <string name="theme">Vikings</string>
+    <string name="quiz">Quiz</string>
+    <string name="question_3">3.What is the name of giant serpent wrapped around Midgaard?</string>
+    <string name="ans_3_A">Jormungand</string>
+    <string name="ans_3_B">Yggdrasil</string>
+    <string name="ans_3_C">Fenrir</string>
+    <string name="ans_3_D">Bifrost</string>
+    <string name="question_2">2.How many worlds are there according to nordic mythology?</string>
+    <string name="question_1">1.What terrains were threatened by Vikings during their sails?</string>
+    <string name="ans_1_A">Today\'s Turkey</string>
+    <string name="ans_1_B">Today\'s Austria</string>
+    <string name="ans_1_C">North America</string>
+    <string name="ans_1_D">North Africa</string>
+    <string name="question_4">4.Witch picture shows futhark?</string>
+    <string name="ans_2" />
+    <string name="number">Write number here</string>
+    <string name="submit">Submit</string>
+</resources>

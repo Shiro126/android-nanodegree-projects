@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="TextAppearance.AppCompat.White" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/macondo</item>
+    </style>
+    <style name="TextAppearance.AppCompat.White.NormalSize" parent="TextAppearance.AppCompat.White">
+        <item  name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox.Drawable" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/macondo</item>
+        <item  name="android:textSize">16sp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton.Drawable" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/macondo</item>
+        <item  name="android:textSize">16sp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+</resources>

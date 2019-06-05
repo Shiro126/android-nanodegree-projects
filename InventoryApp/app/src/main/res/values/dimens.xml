@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">32dp</dimen>
+    <dimen name="details_labels_width">64dp</dimen>
+    <dimen name="details_margin_horizontal">8dp</dimen>
+</resources>

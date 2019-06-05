@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976d2</color>
+    <color name="colorPrimaryDark">#004ba0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="family">#c2185b</color>
+    <color name="food">#bf360c</color>
+    <color name="history">#0277bd</color>
+    <color name="nature">#1b5e20</color>
+</resources>
